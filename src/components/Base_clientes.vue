@@ -57,8 +57,8 @@ export default {
     };
   },
   beforeCreate: function(){
-    /* axios.get("https://gestionatec.herokuapp.com/cliente/registroGetAll") */
-    axios.get("http://localhost:8000/cliente/registroGetAll")
+    axios.get("https://gestionatecback.herokuapp.com/cliente/registroGetAll")
+    /* axios.get("http://localhost:8000/cliente/registroGetAll") */
     .then(respuesta=>{
       this.database_clientes=respuesta.data;
     })
