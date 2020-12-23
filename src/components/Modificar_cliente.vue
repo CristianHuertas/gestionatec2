@@ -82,7 +82,7 @@ export default {
           detalle: this.detalle
         }
         console.log(this.datosJSON);
-        axios.put("https://gestionatecback.herokuapp.com/cliente/registroPut/", this.datosJSON, {headers: {}})
+        axios.put("https://gestionatecback.herokuapp.com/cliente/registroPut", this.datosJSON, {headers: {}})
         /* axios.put("http://localhost:8000/cliente/registroPut", this.datosJSON, {headers: {}}) */ /* modificar un cliente */
         .then(respuesta=>{
           /* console.log(respuesta.data); */
