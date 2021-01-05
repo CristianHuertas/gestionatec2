@@ -2,7 +2,7 @@
 <template>
     <div class="Pie_pagina">
         <!-- <button v-on:click="cambiar_texto">cambiar texto</button> -->
-        <h4> Cristian J. Huertas - Luis Silva - Gabriela Quintero - Juan Pablo Calad - Jorge Piedrahita - © Derechos Reservados</h4>
+        <h4> Cristian J. Huertas - cristian.huertas0@gmail.com - 3126855271 - © Derechos Reservados</h4>
     </div>
 </template>
 
